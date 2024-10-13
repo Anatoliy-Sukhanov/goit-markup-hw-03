@@ -1,20 +1,27 @@
-/* 
-font-family: 'Raleway', sans-serif;
-font-family: "Roboto", sans-serif;
-*/
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #434455;
   background-color: white;
 }
-/*Reset*/
+/*---------------------------------Reset------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
 }
 ul,
 ol {
-  list-style-type: none;
+  list-style-type: none;#
+  margin: 0;
+  padding-left: 0;
 }
 address {
   font-style: normal;
@@ -23,7 +30,8 @@ button {
   cursor: pointer;
 }
 
-/*header*/
+
+/*------------------------------------------header-----------------------------*/
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -60,7 +68,7 @@ button {
   color: #404bbf;
 }
 
-/*main*/
+/*-------------------------------------main---------------------------------*/
 .hero {
   background-color: #2e2f42;
 }
@@ -141,7 +149,7 @@ button {
   color: #434455;
 }
 
-/*footer*/
+/*-----------------------------------------footer-----------------------------*/
 footer {
   background-color: #2e2f42;
 }
@@ -152,4 +160,16 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
