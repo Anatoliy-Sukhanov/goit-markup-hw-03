@@ -4,6 +4,19 @@ body {
   color: #434455;
   background-color: white;
 }
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /*---------------------------------Reset------------------------*/
 h1,
 h2,
@@ -44,6 +57,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-part {
   color: #2e2f42;
@@ -55,6 +69,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -74,7 +89,6 @@ img {
 
 .header-container {
   display: flex;
-  padding: 24px 0;
 }
 
 .header-nav {
@@ -85,11 +99,16 @@ img {
   display: flex;
    gap: 40px;
 }
-
+.contacts {
+  margin-left: auto;
+  padding: 24px 0;
+}
 .contact-list {
   display: flex;
    gap: 40px;
-   margin-left: 332px;
+}
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
 }
 /*-------------------------------------main---------------------------------*/
 .hero {
@@ -244,15 +263,4 @@ footer {
   color: #f4f4fd;
 }
 
-.container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
