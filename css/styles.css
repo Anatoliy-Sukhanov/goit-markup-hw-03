@@ -29,6 +29,9 @@ address {
 button {
   cursor: pointer;
 }
+img {
+  display: block;
+}
 
 
 /*------------------------------------------header-----------------------------*/
@@ -40,6 +43,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .logo-part {
   color: #2e2f42;
@@ -68,9 +72,29 @@ button {
   color: #404bbf;
 }
 
+.header-container {
+  display: flex;
+  padding: 24px 0;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+   gap: 40px;
+}
+
+.contact-list {
+  display: flex;
+   gap: 40px;
+   margin-left: 332px;
+}
 /*-------------------------------------main---------------------------------*/
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .title-hero {
   font-weight: 700;
@@ -79,6 +103,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 .button-hero {
   font-weight: 500;
@@ -87,10 +112,33 @@ button {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button-hero:hover,
 .button-hero:focus {
   background-color: #404bbf;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.benefit-list {
+  display: flex;
+  gap: 24px;
+}
+.benefit-list:first-child {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .benefit-title {
@@ -99,6 +147,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .benefit-text {
   font-family: 'Roboto', sans-serif;
@@ -118,7 +167,19 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+   margin-bottom: 72px;
 }
+
+.team-list {
+  display: flex;
+  gap: 24px;
+}
+
+.team-list:first-child {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+   border-radius: 0px 0px 4px 4px;
+}
+
 .team-item {
   background-color: #ffffff;
 }
@@ -129,6 +190,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-text {
   line-height: 1.5;
@@ -136,6 +198,10 @@ button {
   text-align: center;
   color: #434455;
 }
+.name {
+  padding: 32px 0;
+}
+
 .portfolio-title {
   font-weight: 500;
   font-size: 20px;
@@ -147,6 +213,22 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-list:first-child {
+  width: calc((100% - 48px) / 3); 
+}
+
+.portfolio-name {
+padding: 32px 16px;
+
 }
 
 /*-----------------------------------------footer-----------------------------*/
@@ -173,3 +255,4 @@ footer {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
